@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anas k a</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Anta' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/11c1282999.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+   <!-- res -->
+ <div class="top2" style="position: relative; ">
+  <div class="top-item">
+  <div class="top-left">Personal Portfolio</div>
+  <ul class="res-ul">
+    <div class="toggle">
+      <span></span>
+      <span></span>
+      
+    </div>
+    <a href="index.html" style=" color: rgb(51, 50, 50);">HOME</a>
+    <a href="edu.html" style=" color: rgb(51, 50, 50);">EDUCATION</a>
+    <a href="skills.html"style=" color: rgb(51, 50, 50);">SKILLS</a>
+    <a href="project.html" style=" color: rgb(51, 50, 50);">PROJECT</a>
+    <a href="contact.html" style=" color: rgb(51, 50, 50);">CONTACT</a>
+  </ul>
+ </div></div>
+ <!-- res big -->
+<div class="top">
+  <div class="top-item">
+  <div class="top-left">Personal Portfolio</div>
+  <ul>
+    <a href="index.html">HOME</a>
+    <a href="edu.html">EDUCATION</a>
+    <a href="skills.html">SKILLS</a>
+    <a href="project.html">PROJECT</a>
+    <a href="contact.html">CONTACT</a>
+  </ul>
+  <div class="line">
+    <div class="line-st"></div>
+    <div class="line-circle"></div>
+  </div>
+</div></div>
+
+
+
+<div class="contact">
+  <form action="" id="submit">
+<div class="h2">Send a message</div>
+        <div class="name">
+            <input type="text" placeholder="Name" required id="email"name="name" >
+        </div>
+        <div class="name">
+          <input type="email" placeholder="email" required id="email" name="email" >
+      </div>
+        <div class="message">
+            <textarea name="message" id="" placeholder="Your message here" required></textarea>
+        </div>
+<div class="button">
+    <button type="submit">Send</button>
+</div>
+    </form>
+</div>
+
+
+
+<div class="contact-me">
+    <div class="contact-head">
+   
+    </div>
+    <div class="contacts">
+  <div class="contact-items">
+  <div class="co">
+    <div class="co1">
+      <i class="fa-solid fa-phone" id="co1"></i>
+      <a href="tel:+918547554648">+91 8547554648</a>
+  </div>
+  <div class="co1" id="co2">
+    <i class="fa-solid fa-envelope"></i>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anasfamilyman@gmail.com">anasfamilyman@gmail.com</a>
+  </div>
+   
+  </div><div class="co" style="align-items: start;">
+    <div class="co1">
+      <i class="fa-solid fa-location-dot" id="co1"></i>
+      <a href="https://maps.google.com/?q=1600+krala+thrissur+kechery">India ,Kerala</a>
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+    </div>
+    <div class="what-andmore">
+    <div class="what-line">
+      <div class="icons">
+        <a href="https://api.whatsapp.com/send?phone=+918547554648"> <i class="fa-brands fa-whatsapp"></i></a>
+     <a href="https://t.me/Anas12003"><i class="fa-brands fa-telegram"></i></a>
+      <a href="https://www.facebook.com/anas.asharaf.355?mibextid=ZbWKwL">   <i class="fa-brands fa-facebook"></i></a>
+  </div>
+    </div>
+    </div> 
+  </div>
+  
+  
+  <div class="thanks">
+    <p>"Thanks For Scrolling"</p>
+  </div>
+  
+  
+  <div class="menu">
+    <div class="menu-items">
+      <div class="menu-item1">
+        <a href="https://drive.google.com/file/d/1RedSF5NNhpY9wRmLeiWJIyF5NP8EXjpZ/view?usp=sharing">
+        <i class="fa fa-file-text" id="re"></i></a>
+
+      </div>
+      <div class="menu-item2">
+        <a href="https://www.instagram.com/asharaf.anas?igsh=YWtuMmNob3RzbG83">
+        <i class="fa fa-instagram" id="re2"></i></a>
+        <a href="https://www.linkedin.com/in/anas-k-a-a359671bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        <i class="fa fa-linkedin-square" id="re3"></i></a>
+      </div>
+    </div>
+    <div class="menu-button">
+
+    </div>
+    <div class="menu-button" id="menu-button" style="background-color:#E58725 ;
+      border: 4px solid   rgb(51, 50, 50); z-index: 10; display: none;">
+
+    </div>
+  </div>
+    <script>
+      $("#submit").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbyL6aQuIouMtdBD-xfXFJ0vQh3ctcRKtnh1-WJK4XnGNzAGy-Kv76TSAuDv4q5I6Wo3PA/exec",
+              data:$("#submit").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
+    </body>
+    
+</html>
